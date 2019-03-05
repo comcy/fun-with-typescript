@@ -4,6 +4,7 @@
   "description": "Just some typescript playground.",
   "main": "index.js",
   "scripts": {
+    "tsc": "node node_modules/typescript/bin/tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/comcy/fun-with-typescript/issues"
   },
-  "homepage": "https://github.com/comcy/fun-with-typescript#readme"
+  "homepage": "https://github.com/comcy/fun-with-typescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.13.1",
+    "typescript": "^3.3.3333"
+  }
 }
